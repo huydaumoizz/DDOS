@@ -4,7 +4,6 @@ const net = require("net");
  const cluster = require("cluster");
  const url = require("url");
  const crypto = require("crypto");
- const UserAgent = require('user-agents');
  const fs = require("fs");
  const { HeaderGenerator } = require('header-generator');
 
